@@ -1,0 +1,33 @@
+.masthead.segment {
+    min-height: 700px;
+    padding: 1em 0em;
+}
+
+.ui.inverted.huge.header {
+    font-size: 3em;
+}
+
+.ui.vertical.stripe h3 {
+    font-size: 2em;
+}
+
+.ui.vertical.stripe .floated.image {
+    clear: both;
+}
+
+.ui.vertical.stripe p {
+    font-size: 1.25em;
+}
+
+.quote.stripe.segment {
+    padding: 0em;
+}
+
+a {
+    cursor: pointer;
+}
+
+body {
+    background-color: #252525;
+    color: #eeeeee;
+}
