@@ -4,7 +4,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-    <!-- <link rel="icon" href="./Resources/logo.png"> -->
     <title>Pete Way: About</title>
     <link rel="stylesheet" type="text/css" href="./Libraries/semantic/out/semantic.min.css">
     <script src="./Libraries/jquery-3.1.1.js"></script>
@@ -49,34 +48,32 @@
             <div class="ui vertical stripe segment">
                 <div class="ui text container">
                     <h3><i class="pencil alternate icon"></i> Education</h3>
-                    <p>
-                        <div class="ui relaxed divided list">
-                            <div class="item">
-                                <img class="ui mini image" src="./Resources/UTC.png">
-                                <div class="content">
-                                    <div class=" header" style="color: #eeeeee;">
-                                        Bachelor's of Science in Computer Science: Information Security
-                                    </div>
-                                    <div class="description" style="color: #eeeeee;">
-                                        Studied at the University of Tennessee at Chattanooga from 2014-2018
-                                    </div>
+                    <div class="ui relaxed divided list">
+                        <div class="item">
+                            <img class="ui mini image" src="./Resources/UTC.png">
+                            <div class="content">
+                                <div class=" header" style="color: #eeeeee;">
+                                    Bachelor's of Science in Computer Science: Information Security
                                 </div>
-                            </div>
-                            <div class="item">
-                                <img class="ui mini image" src="./Resources/UTC.png">
-                                <div class="content">
-                                    <div class=" header" style="color: #eeeeee;">
-                                        Master's of Science in Computer Science: Data Science
-                                    </div>
-                                    <div class="description" style="color: #eeeeee;">
-                                        Started at the University of Tennessee at Chattanooga in 2018.
-                                        <br>
-                                        Estimated graduation: May 2020.
-                                    </div>
+                                <div class="description" style="color: #eeeeee;">
+                                    Studied at the University of Tennessee at Chattanooga from 2014-2018
                                 </div>
                             </div>
                         </div>
-                    </p>
+                        <div class="item">
+                            <img class="ui mini image" src="./Resources/UTC.png">
+                            <div class="content">
+                                <div class=" header" style="color: #eeeeee;">
+                                    Master's of Science in Computer Science: Data Science
+                                </div>
+                                <div class="description" style="color: #eeeeee;">
+                                    Started at the University of Tennessee at Chattanooga in 2018.
+                                    <br>
+                                    Estimated graduation: May 2020.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -85,8 +82,35 @@
             <div class="ui vertical stripe segment">
                 <div class="ui text container">
                     <h3><i class="book icon"></i> Experience</h3>
-                    <p>
-                    </p>
+                    <div class="ui relaxed divided list">
+                        <div class="item">
+                            <img class="ui circular mini image" src="./Resources/cuip.ico">
+                            <div class="content">
+                                <div class="header" style="color: #eeeeee;">
+                                    Research Assistant for <a href="https://www.utc.edu/faculty/mina-sartipi/index.php"
+                                        target="_blank">Dr. Mina Sartipi</a>
+                                </div>
+                                <div class="description" style="color: #eeeeee;">
+                                    Working in bleeding-edge research projects (see below).
+                                    <br>
+                                    Employed 2018-Current
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="ui mini image" src="./Resources/covenant.png">
+                            <div class="content">
+                                <div class="header" style="color: #eeeeee;">
+                                    Covenant Transport
+                                </div>
+                                <div class="description" style="color: #eeeeee;">
+                                    Weather Analyst; advanced warning of bad weather for drivers.
+                                    <br>
+                                    Employed 2017-2018
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -96,7 +120,61 @@
             <div class="ui vertical stripe segment">
                 <div class="ui text container">
                     <h3><i class="folder open icon"></i> Projects</h3>
+                    <h4>US-Ignite 911</h4>
                     <p>
+                        The NSF US-Ignite 911 project started with getting local Hamilton County TN 911 data, consisting
+                        solely of accident data and anonymous information such as location, severity, time, date, etc..
+                        Using this information, road curvature from a tool called E-TRIMS, and historic weather
+                        conditions from DarkSky, we have established a Multi-Layer Perceptron (MLP) to predict, with a
+                        ~80% accuracy, the probability of a roadway incident in a given location with given time and
+                        weather conditions.
+                        <br>
+                        <br>
+                        A paper on this project titled <b style="text-decoration: underline; font-weight: normal;">
+                            "Studying the Effects of Weather and Roadway Geometrics on Daily Accident Occurrence using a
+                            Multilayer Perceptron Model"</b> was published at the
+                        <a href="https://cps-vo.org/group/scope-19" target="_blank">
+                            4th International Science of Smart City Operations and Platforms Engineering
+                        </a>.
+                    </p>
+
+                    <div class="ui horizonal divider"></div>
+
+                    <h4>Multimodal</h4>
+                    <p>
+                        The multimodal project is a newly instantiated project which aims to combine data from the
+                        US-Ignite 911 MLP to create safer smart routing for mapping systems.
+
+                        As the project has just been founded, no publications have yet been made.
+                    </p>
+                </div>
+
+
+            </div>
+
+            <div class="ui horizonal divider"></div>
+
+            <div class="ui vertical stripe segment">
+                <div class="ui text container">
+                    <h3><i class="file pdf outline icon"></i> Other Publications</h3>
+                </div>
+                <div class="ui embed"
+                    data-url="./Resources/PDF/Numerical Analysis of Disney Company Film Ratings and Relation to Revenue.pdf">
+                    <p>
+                        Can't view the PDF? Download it <a
+                            href="./Resources/PDF/Numerical Analysis of Disney Company Film Ratings and Relation to Revenue.pdf"
+                            target="_blank">here.</a>
+                    </p>
+                </div>
+                
+                <div class="ui text container">
+                    <div class="ui horizonal divider"></div>
+                </div>
+
+                <div class="ui embed" data-url="./Resources/PDF/Orlando Theme Park Statistics.pdf">
+                    <p>
+                        Can't view the PDF? Download it <a href="./Resources/PDF/Orlando Theme Park Statistics.pdf"
+                            target="_blank">here.</a>
                     </p>
                 </div>
             </div>

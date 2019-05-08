@@ -27,7 +27,17 @@ a {
     cursor: pointer;
 }
 
+h4 {
+    font-size: 1.75em;
+}
+
 body {
     background-color: #252525;
     color: #eeeeee;
+}
+
+.ui.embed {
+    max-width: 33vw;
+    height: 100vh;
+    margin: auto;
 }
