@@ -37,7 +37,7 @@ body {
 }
 
 .ui.embed {
-    max-width: 33vw;
-    height: 100vh;
+    max-width: 66vw;
+    height: calc(100vh - 3em);
     margin: auto;
 }

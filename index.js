@@ -14,4 +14,9 @@ $(document)
         $('.ui.sidebar').sidebar('attach events', '.toc.item');
         // Embed all the "ui embed" classes
         $(".ui.embed").embed();
+        // Update the embedded classes
+        $(window).resize(function () {
+            $(".ui.embed").embed("destroy");
+            $(".ui.embed").embed();
+        });
     });
