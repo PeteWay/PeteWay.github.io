@@ -41,3 +41,12 @@ body {
     height: calc(100vh - 3em);
     margin: auto;
 }
+
+.ui.masthead.image {
+    max-width: 40vw;
+    max-height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4vh;
+}
+
